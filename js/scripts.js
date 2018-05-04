@@ -1,8 +1,8 @@
-var play = function(userInput){
- var numberParsed = parseInt(userInput);
+function play(playerInput){
+ // var numberParsed = parseInt(playerInput);
  var numberRange = [];
 
- for (var i = 1; i <= numberParsed; i++) {
+ for (var i = 1; i <= playerInput; i++) {
    if (i % 15 === 0) {
      numberRange.push("pingpong");
 
@@ -15,4 +15,18 @@ var play = function(userInput){
    }
  }
  return numberRange;
-};
+ // alert(numberRange);
+}
+
+
+$(document).ready(function(){
+  $("form#ping-pong-form").submit(function(event){
+    $("#mydata").empty();
+    var playerInput = parseInt($("input#goal").val());
+    var mm = play(playerInput);
+    mm.forEach(function(newdata){
+      $("#mydata").append(newdata+"</br>");
+      event.preventDefault();
+    });
+  });
+});
