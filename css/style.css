@@ -1,118 +1,22 @@
-.picha{
-  padding-left: 20px;
-  padding-right: 70px;
-  padding-bottom: 60px;
-  padding-top:70px;
-}
-.fast{
-  padding-left: 20px;
-  padding-right:70px;
-  padding-bottom:60px;
-  padding-top:70px;
-}
-.pic{
-  float:right;
-}
-h2{
-  font-size: 32px;
-  text-align:center;
+h1{
+  text-align: center;
+  font-size: 36px;
   font-style: normal;
 }
-p{
-  font-size: 26px;
+body{
+  background: url("../images/images.jpeg");
+  background-size:cover;
+}
+.rules{
+  text-align: left;
+  font-size: 20px;
   font-style: italic;
 }
-.mbili{
-  background:url("../images/foodsBg.jpg");
-}
-
-
-
-.photo{
-  float: left;
-}
-h3{
-  color: red;
-  text-align: center;
-  font-style: oblique;
-  image-resolution: from-image;
-}
-.three{
-  padding-left:20px;
-  padding-right:20px;
-  padding-top:10px;
-  padding-bottom:10px;
-  text-align:center;
-}
-.five{
-  background-color:#F15A29;
-  text-align:center;
-}
-.six{
-  background-color: #F15A29;
-}
-h5{
+.about{
+  text-align: right;
   font-size: 30px;
+  font-style: oblique;
 }
-.six{
-  padding-left:70px;
-  padding-right:0px;
-  padding-top:10px;
-  padding-bottom:10px;
-  text-align:center;
-}
-.seven{
-  background:url("../images/subscribe.jpg");
-  text-align: center;
-}
-.seven p{
-  backgrouncolour: white;
-  font-family:cantarell;
-}
-input.emailBox{
-  color: white;
-}
-.mbili p{
-  background-color: grey;
-  height:1px;
-  padding-left: 30px
-  padding-right:30px;
-  padding-top: 75px;
-}
-#drinks{
-  background-color: white;
-  height:600px;
-  padding-left: 30px
-  padding-right:30px;
-  padding-top: 75px;
-}
-#chicken{
-  background-color: white;
-  height:600px;
-  padding-left: 30px
-  padding-right:30px;
-  padding-top: 75px;
-}
-#rice{
-  background-color: white;
-  height:600px;
-  padding-left: 30px
-  padding-right:30px;
-  padding-top: 75px;
-}
-.seven p{
-  color: #FFFFFF;
-}
-.mbili h{
-  color:#FFFFFF
-}
-.photo{
-  float: right;
-  margin-left: 80px;
-}
-#buttton{
-  color:red;
-}
-.jumbotron{
-  background: url("../images/landing.jpg");
+.pic{
+  float: left;
 }
